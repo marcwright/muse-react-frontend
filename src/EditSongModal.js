@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Form, Button, Label, Header } from 'semantic-ui-react';
 
-const EditDogModal = (props) => {
+const EditSongModal = (props) => {
   console.log(props);
   return (
     <Modal open={props.open}>
@@ -40,4 +40,4 @@ const EditDogModal = (props) => {
   );
 };
 
-export default EditDogModal;
+export default EditSongModal;
